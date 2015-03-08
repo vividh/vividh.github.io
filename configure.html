@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="container">
+    <h1 class="text-center">
+        We can help you furnish your home!
+        <br/>
+        <small>Just pick a room and a range, and choose a theme.</small>
+    </h1>
+
+    <div class="mix-and-match jumbotron ">
+        {% include pick-options.html param=site.data.furlenco.rooms caption="Pick a Room" type="room" %}
+        {% include pick-options.html param=site.data.furlenco.ranges caption="Pick a Range" type="range" %}
+        {% include pick-options.html param=site.data.furlenco.themes caption="Pick a Theme" type="theme" %}
+
+        <div class="pick-options pick-result text-center"></div>
+        <p class="text-center"><a class="reload h6">I'm not done!</a></p>
+    </div>
+
+    <div class="alert alert-success price-alert" role="alert">Total: 
+        <div class="pull-right">
+            Rs. 
+            <span class="cart-total">0</span>
+        </div>
+    </div>
+
+    {% include footer.html %}
+</div>
