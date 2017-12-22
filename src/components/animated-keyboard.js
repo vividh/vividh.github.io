@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { PropTypes, PureComponent } from 'react';
 
-import styles from './animated-keyboard.module.scss';
+import styles from './animated-keyboard.module.css';
 
 // split into rows; each key string is defined as keyChar[:scale][:align]
 // where key width = (scale * baseKeyWidth)
