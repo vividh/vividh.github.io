@@ -20,10 +20,10 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title='We with thoughts'
+      title="vividh.github.io"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        // { name: 'description', content: 'Sample' },
+        // { name: 'keywords', content: 'sample, something' },
       ]}
     />
     <Header />
