@@ -8,8 +8,8 @@ import AnimatedKeyboard from '../components/animated-keyboard';
 const Header = () => (
   <Link to="/" style={{ textDecoration: 'none', color: 'initial' }}>
     <div style={{ position: 'relative', marginBottom: 15 }}>
-      <div style={{ opacity: 0.4, overflow: 'hidden', height: 200 }}>
-        <div style={{ transform: 'rotateZ(-5deg) scale(1.3) translateX(150px) translateY(-60px)', pointerEvents: 'none' }}>
+      <div style={{ opacity: 0.4, overflow: 'hidden', height: '35vh' }}>
+        <div style={{ transform: 'rotateZ(-5deg) scale(1.3) translateX(12vw) translateY(-10vh)', pointerEvents: 'none' }}>
           <AnimatedKeyboard highlightKeys={true} spellThis='mywittyblog' />
         </div>
       </div>
