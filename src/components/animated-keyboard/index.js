@@ -10,7 +10,7 @@ const keyboardRows = [
   ['tab:1.5:left', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\\'],
   ['caps lock:2:left', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', '\'', 'return:1.6:right'],
   ['shift:2.5:left', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', 'shift:2.25:right'],
-  ['fn:0.9:left', 'control:1.2', 'option:1.1', 'command:1.2', 'space:5.5', 'command:1.2', 'option:1.1', '<:0.9', '^', '>:0.9']
+  ['fn:0.9:left', 'control:1.2', 'option:0.9', 'command:1.2:right', 'space:5.5', 'command:1.2', 'option:0.9:right', '<:0.9', '^', '>:0.9']
 ]
 
 class AnimatedKeyboard extends PureComponent {
