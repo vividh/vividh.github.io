@@ -25,9 +25,8 @@ export default props => (
     {openSource.map(({ project, contributions }) => (
       <p>
         <a href={project.link} target='_blank'>{project.title}</a>
-        <br />
-        <br />
-        <ul>
+
+        <ul style={{ paddingTop: 10 }}>
           {contributions.map(c => (
             <li>
               <a href={c.link} target='_blank'>

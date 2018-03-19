@@ -23,16 +23,16 @@ const IndexPage = () => (
     <h2>Vividh Chandna</h2>
 
     <p>
-      Hi! I am a Software Developer passionate for technology, the web, video games and everything else in between.
+      Hi! I am a Software Developer passionate for technology, the web, video games and everything that overlaps.
       I embrace the <a href='https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f' target='_blank'>JS fatigue</a>.
     </p>
 
     <p>
-      Currently handling internal products & payments at Furlenco. Past FusionCharts.
+      Currently developing internal products & payments at Furlenco. Past FusionCharts.
     </p>
 
     <p>
-      I like to build beautiful interfaces with a focus on usability. I also have full-stack exposure through my experience of working with technologies such as NodeJS and Ruby on Rails.
+      I like to build creative interfaces with a focus on usability. I also have full-stack exposure through my experience of working with technologies such as NodeJS and Ruby on Rails.
     </p>
 
     <p style={{ color: '#ababab' }}>
@@ -41,17 +41,17 @@ const IndexPage = () => (
 
     <hr />
 
-    <div style={{ textAlign: 'center' }}>
-      <span style={{ padding: '15px 40px' }}>
-        <a href='/resume.pdf' target='_blank'>Résumé</a>
+    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gridTemplateRows: 40 }}>
+      <span style={{ gridColumnStart: 1, justifySelf: 'center', alignSelf: 'center' }}>
+        <a href='mailto:vividhchandna@gmail.com' target='_blank'>Email</a>
       </span>
-      <span style={{ padding: '15px 40px' }}>
+      <span style={{ gridColumnStart: 2, justifySelf: 'center', alignSelf: 'center' }}>
         <a href='https://github.com/vividh' target='_blank'>Github</a>
       </span>
-      <span style={{ padding: '15px 40px' }}>
+      <span style={{ gridColumnStart: 3, justifySelf: 'center', alignSelf: 'center' }}>
         <a href='https://twitter.com/vividhC' target='_blank'>Twitter</a>
       </span>
-      <span style={{ padding: '15px 40px' }}>
+      <span style={{ gridColumnStart: 4, justifySelf: 'center', alignSelf: 'center' }}>
         <a href='https://www.linkedin.com/in/vividh-chandna-a99a3040/' target='_blank'>LinkedIn</a>
       </span>
     </div>
